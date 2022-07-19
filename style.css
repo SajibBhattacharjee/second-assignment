@@ -11,30 +11,43 @@ body {
     background-color: black;
     display: flex;
     justify-content: center;
-    border-radius: 5px;
-
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 40em;
 
 
 
 }
 
-#image-header {
+.writing {
+    padding-top: 5em;
+    margin-left: 1em;
+
+}
+
+img {
     margin-left: 2.5em;
     height: 100%;
 }
 
 h1 {
     font-size: 50px;
-    line-height: 50px;
+    line-height: 70px;
     margin-block-end: 0.37em;
+}
+
+p {
+    margin-bottom: 2.5em;
 }
 
 
 #streaming-site {
-    background-color: red;
-    border-color: red;
+    background-color: crimson;
+    border-color: crimson;
     border-radius: 5px;
     padding: 10px;
+    margin-bottom: 5em
 }
 
 #streaming-site a {
